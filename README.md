@@ -31,4 +31,18 @@ Napisz program, który dla danej ważonej macierzy sąsiedztwa wagami obliczy je
 
 Dla prostoty zakładamy, że grafy są spójne i jego wagi są dodatnie.
 
-7.
+7. Napisz program, który pobiera graf nieskierowany podany jako lista sąsiedztwa. Następnie wczytuje wiersz, który reprezentuje kolory poszczególnych wierzchołków tego grafu. Wynikiem programu ma być informacja, czy dane kolorowanie wierzchołków (w klasycznym sensie) jest legalne czy nie.
+
+7(2). Napisz program, który dla grafu podanego jako lista sąsiedztwa, wypisze kolorowanie wierzchołków przeprowadzone za pomocą algorytmu LF (largest first). Ponadto program ma wypisać liczbę chromatyczną otrzymaną w wyniku tego pokolorowania.
+
+Zakładamy, że wybieramy niepokolorowany wierzchołek o najwyższym stopniu i najwyższym labelu. Oznacza to, że jeśli wierzchołek 2 ma stopień 4 oraz wierzchołek 3 ma stopień 4 to wybieramy najpierw wierzchołek 3.
+
+Natomiast podczas przeszukiwania sąsiadów zaczynamy zawsze od sąsiada z najmniejszym labelem.
+
+8. Napisz program, który dla podanego grafu dwudzielnego G=((A,B);EG)G = ((A,B);E_G)G=((A,B);EG​) w postaci listy sąsiedztwa stwierdzi, czy istnieje skojarzenie całkowite ze zbioru AAA w zbiór BBB.
+
+(+ 2 pkt) Za wyświetlenie skojarzenia całkowitego w danym grafie.
+
+8(2). Napisz program, który dla grafu podanego jako lista sąsiedztwa, wypisze jego kwadrat. 
+
+Bierzemy tu pod uwagę grafy nieskierowane jak i skierowane.
