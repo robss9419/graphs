@@ -46,3 +46,12 @@ Natomiast podczas przeszukiwania sąsiadów zaczynamy zawsze od sąsiada z najmn
 8(2). Napisz program, który dla grafu podanego jako lista sąsiedztwa, wypisze jego kwadrat. 
 
 Bierzemy tu pod uwagę grafy nieskierowane jak i skierowane.
+
+9. Napisz program, który sprawdzi czy graf nieskierowany GGG podany przez użytkownika poprzez macierz sąsiedztwa jest:
+
+    Hamiltonowski
+    Półhamiltonowski
+    Niehamiltonowski
+    Niespójny
+
+Dane testowe są grafami nieskierowanymi. Użyj tutaj algorytmu z nawrotami.
